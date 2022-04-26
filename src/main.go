@@ -32,4 +32,8 @@ func main() {
 	updateLastName(&harry, "potter2")
 
 	harry.print()
+
+	mapPractice()
+
+	practiceInterface()
 }
