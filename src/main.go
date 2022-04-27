@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	james := person{
 		"james",
@@ -35,5 +37,9 @@ func main() {
 
 	mapPractice()
 
-	practiceInterface()
+	//practiceInterface()
+
+	fetchingContent()
+	fmt.Println(".............Concurrently Started ......")
+	fetchingContentConcurrently()
 }
